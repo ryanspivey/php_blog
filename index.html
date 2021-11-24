@@ -8,7 +8,7 @@
         <h1>Blog Posts: </h1>
         <script>
             const getPosts = async () => {
-                const response = await axios.get('http://localhost/myblog/api/post/read.php');
+                const response = await axios.get('http://localhost/myblog/api/post/getPosts.php');
                 return response.data;
             }
 

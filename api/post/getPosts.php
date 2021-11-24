@@ -14,7 +14,7 @@ $db = $database->connect();
 $post = new Post($db);
 
 //Blog post query
-$result = $post->read();
+$result = $post->getPosts();
 //Get row count
 $num = $result->rowCount();
 
