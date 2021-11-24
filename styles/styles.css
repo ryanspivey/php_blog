@@ -1,0 +1,38 @@
+* {  
+	vertical-align: baseline;  
+	font-family: inherit;  
+	font-style: inherit;  
+	font-size: 100%;  
+	border: none;  
+	padding: 0;  
+	margin: 0;  
+	}  
+body {  
+	padding: 5px;
+    font-family: Helvetica, sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+	}  
+h1, h2, h3, h4, h5, h6, p, pre, blockquote, form, ul, ol, dl {  
+	margin: 20px 0;  
+	}  
+li, dd, blockquote {  
+	margin-left: 40px;  
+	}  
+table {  
+	border-collapse: collapse;  
+	border-spacing: 0;  
+	}
+
+html {
+    background: #DDBEBE;
+}
+
+.post {
+    padding: 20px 20px 20px 20px;
+    border-bottom: 1px solid #C89595;
+    background-color: #EDEDED;
+    color: #6C4A4A;
+    border-radius: 5px;
+}
+
