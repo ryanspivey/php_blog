@@ -20,7 +20,7 @@ class Post {
     }
 
     //Get Posts
-    public function getPosts() {
+    public function read() {
         $query = 
         'SELECT 
             c.name as category_name,
@@ -47,7 +47,7 @@ class Post {
     }
 
     //Get Single Post
-    public function getPostsById() {
+    public function readSingle() {
         $query = 
         'SELECT 
             c.name as category_name,
@@ -85,6 +85,8 @@ class Post {
         $this->created_at = $row['created_at'];
 
     }
+
+
 
 }
 
