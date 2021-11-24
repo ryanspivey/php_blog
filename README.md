@@ -4,4 +4,5 @@
 | Method | Endpoint |
 |--|--|
 | GET | /api/post/read.php |
-| GET | /api/post/read_single.php?id=< post-id > |
+| GET | /api/post/read_single.php?id=< post-id > | 
+| POST | /api/post/create.php | 
