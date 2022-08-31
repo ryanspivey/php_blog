@@ -1,3 +1,5 @@
+Got bored and decided to do this one day, because it's php...
+
 **Endpoints:**
 
 ## Posts
